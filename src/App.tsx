@@ -1,3 +1,6 @@
-const App = () => <h1>Hello world!</h1>;
+import './global.styles';
+import { AppContainer } from './App.styles';
+
+const App = () => <AppContainer>Hello world!</AppContainer>;
 
 export default App;

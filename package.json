@@ -17,16 +17,23 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
+    "@linaria/core": "6.2.0",
+    "@linaria/react": "6.2.1",
+    "@nikitababko/reset-css": "1.0.4",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@babel/preset-react": "7.24.7",
+    "@babel/preset-typescript": "7.24.7",
     "@commitlint/cli": "19.4.1",
     "@commitlint/config-conventional": "19.4.1",
     "@eslint/js": "8.57.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.3.1",
+    "@wyw-in-js/babel-preset": "0.5.4",
+    "@wyw-in-js/vite": "0.5.4",
     "commitizen": "4.3.0",
     "cz-customizable": "7.2.1",
     "eslint": "8.57.0",
