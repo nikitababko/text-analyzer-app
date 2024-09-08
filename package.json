@@ -1,11 +1,11 @@
 {
-  "name": "text-analyzer",
+  "name": "text-analyzer-app",
   "author": {
     "name": "Nikita Babko",
     "email": "niki.babko@gmail.com",
     "url": "https://nikitababko.github.io"
   },
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -20,6 +20,7 @@
     "@linaria/core": "6.2.0",
     "@linaria/react": "6.2.1",
     "@nikitababko/reset-css": "1.0.4",
+    "@nikitababko/text-analyzer": "1.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
